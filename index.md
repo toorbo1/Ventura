@@ -1,3 +1,4 @@
+[tiktokoNZjwsUqzcAEZSOD7P4XKrqVKf3VYPlB (2).txt](https://github.com/user-attachments/files/32580380/tiktokoNZjwsUqzcAEZSOD7P4XKrqVKf3VYPlB.2.txt)
 # Ventura
 
 Welcome to the official page of **Ventura** — a modern clothing and accessories brand.
@@ -24,3 +25,6 @@ libelo is an online store for minimalist and stylish clothing. We create high-qu
 ---
 
 © 2026 Ventura. All rights reserved.
+
+
+tiktok-developers-site-verification=oNZjwsUqzcAEZSOD7P4XKrqVKf3VYPlB
