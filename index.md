@@ -18,7 +18,7 @@ layout: default
 
 Нажмите кнопку ниже, чтобы войти через TikTok и получить доступ к публикации видео.
 
-[**Войти через TikTok**](https://www.tiktok.com/v2/auth/authorize/?client_key=ВАШ_CLIENT_KEY&scope=user.info.basic,video.publish&response_type=code&redirect_uri=https://toorbo1.github.io/Ventura/&state=test)
+[**Войти через TikTok**](https://www.tiktok.com/v2/auth/authorize/?client_key=sbaw5cs35hkgoudrx6&scope=user.info.basic,video.publish&response_type=code&redirect_uri=https://toorbo1.github.io/Ventura/&state=test)
 
 ## Загрузить видео
 
@@ -38,7 +38,7 @@ layout: default
 ## Правовая информация
 
 - [Политика конфиденциальности](./privacy)
-
+tiktok-developers-site-verification=oNZjwsUqzcAEZSOD7P4XKrqVKf3VYPlB
 ---
 
 © 2026 VenturaVPN. Все права защищены.
