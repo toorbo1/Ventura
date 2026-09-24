@@ -38,7 +38,7 @@ layout: default
 ## Правовая информация
 
 - [Политика конфиденциальности](./privacy)
-tiktok-developers-site-verification=oNZjwsUqzcAEZSOD7P4XKrqVKf3VYPlB
+tiktok-developers-site-verification=oXt2fDPA5M6TUddJk5rNdkudCbcYBSa3
 ---
 
 © 2026 VenturaVPN. Все права защищены.
