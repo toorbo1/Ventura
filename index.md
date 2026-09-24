@@ -1,30 +1,44 @@
-[tiktokoNZjwsUqzcAEZSOD7P4XKrqVKf3VYPlB (2).txt](https://github.com/user-attachments/files/32580380/tiktokoNZjwsUqzcAEZSOD7P4XKrqVKf3VYPlB.2.txt)
-# Ventura
+---
+layout: default
+---
 
-Welcome to the official page of **Ventura** — a modern clothing and accessories brand.
+<meta name="tiktok-developers-site-verification" content="oNZjwsUqzcAEZSOD7P4XKrqVKf3VYPlB" />
 
-## About Us
+# VenturaVPN
 
-libelo is an online store for minimalist and stylish clothing. We create high-quality, everyday wardrobe essentials that combine comfort, 
+**VenturaVPN** — быстрый и безопасный VPN-сервис с серверами по всему миру.
 
-## What We Offer
+## О сервисе
 
-* Oversized t-shirts made from natural cotton
-* Unisex basic collections
-* Minimalist style with a streetwear aesthetic
-* High-quality materials at affordable prices
+- ⚡ Быстрое подключение
+- 🌐 Серверы по всему миру
+- ♾ Безлимитный трафик
 
-## Contact Us
+## Вход через TikTok
 
-* Email: stasavhadiev7@gmail.com
+Нажмите кнопку ниже, чтобы войти через TikTok и получить доступ к публикации видео.
 
-## Legal Information
+[**Войти через TikTok**](https://www.tiktok.com/v2/auth/authorize/?client_key=ВАШ_CLIENT_KEY&scope=user.info.basic,video.publish&response_type=code&redirect_uri=https://toorbo1.github.io/Ventura/&state=test)
 
-* [Privacy Policy](./privacy)
+## Загрузить видео
+
+После входа вы сможете загрузить видео для публикации в TikTok.
+
+**Форма загрузки** (требуется бэкенд для работы):
+
+- Выберите файл: `<input type="file" accept="video/mp4,video/mov">`
+- Описание: `<textarea placeholder="Описание видео"></textarea>`
+- `<button>Опубликовать</button>`
+
+## Контакты
+
+- Telegram: [@VenturaVpnRobot](https://t.me/VenturaVpnRobot?start=ref_5302383529)
+- Email: stasavhadiev7@gmail.com
+
+## Правовая информация
+
+- [Политика конфиденциальности](./privacy)
 
 ---
 
-© 2026 Ventura. All rights reserved.
-
-
-tiktok-developers-site-verification=oNZjwsUqzcAEZSOD7P4XKrqVKf3VYPlB
+© 2026 VenturaVPN. Все права защищены.
