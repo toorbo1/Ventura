@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="tiktok-developers-site-verification" content="oNZjwsUqzcAEZSOD7P4XKrqVKf3VYPlB" />
+    <title>VenturaVPN</title>
+    <style>
+        body { font-family: Arial; max-width: 600px; margin: 40px auto; padding: 20px; background: #0d0d0d; color: #fff; }
+        .btn { background: #fe2c55; color: #fff; padding: 14px 28px; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; text-decoration: none; display: inline-block; }
+        .btn:hover { background: #e0254a; }
+        input, textarea { width: 100%; padding: 12px; margin: 8px 0; border-radius: 6px; border: 1px solid #444; background: #1a1a1a; color: #fff; }
+        .hidden { display: none; }
+        .status { margin-top: 20px; padding: 15px; border-radius: 8px; background: #1a1a1a; }
+    </style>
+</head>
+<body>
+    <h1>VenturaVPN</h1>
+    <p>Быстрый и безопасный VPN-сервис.</p>
+
+    <a href="https://ВАШ_СЕРВЕР/auth" class="btn">Войти через TikTok</a>
+
+    <div id="uploadForm" class="hidden">
+        <h2>Загрузить видео</h2>
+        <input type="file" id="videoFile" accept="video/mp4,video/mov">
+        <textarea id="videoDesc" placeholder="Описание видео"></textarea>
+        <button class="btn" onclick="uploadVideo()">Опубликовать</button>
+    </div>
+
+    <div id="status" class="status"></div>
+
+    <script>
+        const API_URL = 'https://ВАШ_СЕРВЕР';
+
+        // Проверяем, авторизован ли пользователь
+        window.onload = async () => {
+            const res = await fetch(`${API_URL}/check`, { credentials: 'include' });
+            const data = await res.json();
+            if (data.authorized) {
+                document.getElementById('uploadForm').classList.remove('hidden');
+                document.getElementById('status').innerText = 'Вы вошли как: ' + data.username;
+            }
+        };
+
+        async function uploadVideo() {
+            const file = document.getElementById('videoFile').files[0];
+            const desc = document.getElementById('videoDesc').value;
+            if (!file) return alert('Выберите видео');
+
+            const formData = new FormData();
+            formData.append('video', file);
+            formData.append('description', desc);
+
+            document.getElementById('status').innerText = 'Загрузка...';
+
+            const res = await fetch(`${API_URL}/upload`, {
+                method: 'POST',
+                body: formData,
+                credentials: 'include'
+            });
+            const data = await res.json();
+            document.getElementById('status').innerText = data.message;
+        }
+    </script>
+</body>
+</html>
